@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>African Energy Monitoring Software</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+  <header>
+   
+    <h1>African Energy Monitoring Software</h1>
+    
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Energy Dashboard</a></li>
+      <li><a href="reports.html">Energy Reports</a></li>
+      <li><a href="settings.html">Settings</a></li>
+      <li><a href="profile.html">User Profile</a></li>
+      <li><a href="backend.html">Backend</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="data-entry">
+      <h2>Data Entry</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="device">Device:</label>
+          <select id="device" name="device" required>
+            <option value="">Select Device</option>
+            <option value="stove">Stove</option>
+            <option value="geyser">Geyser</option>
+            <option value="electric-kettle">Electric Kettle</option>
+            <option value="microwave-oven">Microwave Oven</option>
+            <option value="laptop">Laptop</option>
+            <option value="smart-phone">Smartphone</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <div class="form-group">
+          <label for="consumption">Energy Consumption (kWh):</label>
+          <input type="number" id="consumption" name="consumption" step="0.01" required>
+        </div>
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" required>
+        </div>
+        <div class="form-group">
+          <label for="notes">Notes:</label>
+          <textarea id="notes" name="notes" rows="3"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <span class="website-name">African Energy Monitoring Software</span>
+      <span class="location">Ndola, Zambia</span>
+      <span class="copyright">
+        &copy; 2025 African Energy Monitoring Software. All rights reserved.
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

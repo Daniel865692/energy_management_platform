@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=sawp');
+/* Logo Styles */
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+  width: 150px; /* Adjust the width value as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Dark Mode */
+body {
+  background-color: #FFE5B4;
+  color: #2E2E2E;
+}
+
+/* Header */
+header {
+  background-color: #FFDAB3;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Font Styles */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+}
+
+.feature h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #800000;
+  
+ 
+  align-items: center;
+  height: 10px;
+  
+  width: 100%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+ 
+}
+
+nav a:hover 
+ {
+  background: #A52A2A;
+  border-radius:0px;
+  color: #2E2E2E;
+  height: 10px;
+
+}
+
+.fieldset{
+  width: 40%;
+  padding: 25px;
+  margin: 10px;
+  
+}
+
+
+/*nav ul li::after{
+  content: '';
+  height: 25px;
+  width:0;
+  background: #ffdead;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+nav ul li:hover::after{
+  width: 100%;
+}
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Key Features Section */
+#features {
+  padding: 40px;
+}
+
+#features h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #features {
+    padding: 20px;
+  }
+}
+
+/* Hero Section */
+#hero {
+  background-color: #FFDEAD;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 10px;
+}
+
+.add-device-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #800000;
+  color: #fff;
+  text-decoration: none;
+  
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: #133A66;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #A52A2A;
+  color: #fff;
+  text-decoration: none;
+  
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: #133A66;
+}
+
+.cta-button:hover,
+.add-device-button:hover{
+  background-color: #A52A2A;
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    padding: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+}
+
+/* About Section */
+#about {
+  padding: 40px;
+}
+
+#about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    padding: 20px;
+  }
+}
+
+
+/* Contact Section */
+#contact {
+  background-color: #FFDAB3;
+  padding: 40px;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  flex-basis: 45%;
+}
+
+.contact-form {
+  flex-basis: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #A52A2A;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
+  }
+  
+  .contact-info, .contact-form {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #F4C54;
+  padding: 20px;
+  text-align: center;
+  color: #2E2E2E;
+  position: sticky;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.website-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input.location{
+  width: 20%;
+  height: 30px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+img{
+  width: 1000px;
+}
+input.username{
+  width: 30%;
+}
+
+
+.container2{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 8%;
+}  
+
+.container2 .card{
+  width: 400px;
+  position: relative;
+  height: 650px;
+  background: #fefefe;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0.5px 10px #e6e6e6;
+  transition: 0.3s ease-in-out;
+  margin-top: 5%;
+  border-radius: 25px;
+  color: #2E2E2E;
+}
+
+.container2 .card .img8x{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,1.2);
+  
+}
+
+.container2 .card .img8x img{
+
+  max-width: 100%;
+  border-radius: 10px;
+  width: 300px;
+  
+}
+
+
+.img8x:hover img{
+  transform: scale(1.1);
+}
+
+input.username{
+  width: 30%;
+  border: solid #fff;
+  
+
+}
+input.password{
+  height: 25px;
+}
+
+input.email{
+  width: 30%;
+}
+
+input.confirm{
+  height: 25px;
+}
+
+@keyframes flash {
+  50% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
+  
+}
+
+.notifications .high-consumption-alert {
+  animation: forwards 1s infinite;
+  color: red;
+}
+
+.notifications .geyser-offline {
+  animation: flash 1s infinite;
+  color: red;
+}
+
+@keyframes flash {
+  0% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
+}
+
+.flash-animation {
+  animation: flash 1s infinite;
+}
